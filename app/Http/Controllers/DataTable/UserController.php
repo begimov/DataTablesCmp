@@ -5,8 +5,7 @@ namespace App\Http\Controllers\DataTable;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-abstract class DataTableController extends Controller
+class UserController extends DataTableController
 {
-    abstract public function builder();
-
+    //
 }
